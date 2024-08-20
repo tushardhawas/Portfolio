@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Tushar Dhawas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "TUSHAR DHAWAS",
+  "license": "ISC"
+}
