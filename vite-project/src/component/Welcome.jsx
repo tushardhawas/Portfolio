@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
+import welcomeImage from "../assets/welcome.svg";
 
 function Welcome() {
   return (
     <section className="welcome-section">
-      <h1>Welcome.</h1>
-      <p>My name is Ian Dunkerley, I'm a front-end developer based in Torquay, Devon, UK. I have developed many types of front-ends from well-known DJ applications to Ecommerce booking platforms.</p>
-      <p>I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.</p>
+      
+        <img src={welcomeImage} alt="Welcome" />
+      
+      <p>
+        My name is Tushar Dhawas, I'm a Front-end developer based in Pune,
+        India. I have developed many types of front-ends from well-known Job
+        platforms to Diner booking platforms.
+      </p>
+      <p>
+        "I'm dedicated to crafting sleek, precise interfaces and delivering
+        seamless, user-friendly experiences."
+      </p>
     </section>
   );
 }
