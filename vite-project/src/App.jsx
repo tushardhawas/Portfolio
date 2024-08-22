@@ -1,24 +1,8 @@
-import React from 'react';
-import Header from './component/Header';
-import Welcome from './component/Welcome';
-import Projects from './component/Projects';
-import Footer from './component/Footer';
-import Card from './component/Card';
+import Radial from "./Radial"
+import "./App.css";
 
 function App() {
-  return (
-    <div className="container">
-
-    <div className="App">
-      <Header />
-      <main className='Main'>
-        <Welcome />
-        <Projects />
-      </main>
-      <Footer />
-    </div>
-    </div>
-  );
+  return <Radial />;
 }
 
 export default App;
