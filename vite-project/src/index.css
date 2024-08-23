@@ -78,15 +78,17 @@ svg:hover {
 }
 
 .Main img {
-  width: 40rem;
-  height: 10rem;
+  width: 100%; /* Make the image take up full width of its container */
+  height: auto; /* Keep the aspect ratio intact */
+  max-width: 30rem; /* Prevent it from exceeding a certain size */
 }
+
 
 .welcome-section {
   width: 500px;
   height: auto;
   margin-left: 70px;
-  font-size: 10px;
+  font-size: 11px;
   
 
 }
@@ -132,9 +134,9 @@ svg:hover {
 @media (max-width: 767px) {
   .container {
     width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 10px;
+    height: 100%;
+    /* margin: 50px; */
+    padding: 30px;
   }
   .Main {
     flex-direction: column;
@@ -147,6 +149,7 @@ svg:hover {
   .welcome-section {
     width: 90vw;
     margin-right: 100px;
+    font-size:medium;
 
   }
   .projects-section {
